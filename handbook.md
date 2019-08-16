@@ -1,3 +1,18 @@
+---
+title: Snižování rizika technologických projektů
+rights: Creative Commons Attribution Share Alike
+contributor:
+    - text: Robin Carnahan
+      role: Author
+    - text: Randy Hart
+      role: Author
+    - text: Waldo Jaquith
+      role: Author
+    - text: Tomáš Znamenáček
+      role: Translator
+language: cs-CZ
+---
+
 # Snižování rizika technologických projektů
 
 ## Příručka rozpočtování a řízení pro státní IT projekty
