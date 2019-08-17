@@ -146,7 +146,7 @@ Zatímco technické know-how je běžně dostupné a levné, schopnost vést st�
 
 * Určili a proškolili jste státního zaměstnance (nikoliv externího dodavatele!), který bude fungovat jako vlastník projektu a bude udávat jeho směr a priority a dohlížet na práci vývojářského týmu?
 * Existuje v úřadu hierarchie, v rámci které může kdokoliv získat shora podporu týkající se nové metodiky vývoje? Sahá tato hierarchie až do nejvyšších pater veřejné správy? Může někdo z účastníků projektu novou metodiku bojkotovat? Pokud ano, jakým způsobem můžete tyto problémy předat výš a vyřešit je, aniž by ohrozily úspěch projektu?
-* Jakým způsobem přebírá úřad zodpovědnost za vedení projektu a vlastnictví jeho výstupů? Nedochází k outsourcování rizika externím dodavatelům?
+* Jakým způsobem přebírá úřad zodpovědnost za vedení projektu a vlastnictví jeho výstupů? Nepřenáší riziko na externího dodavatele?
 
 ## Nakupujte služby, ne software
 
@@ -184,11 +184,11 @@ Běžný krabicový komerční software (_Commercial off-the-shelf Software,_ CO
 
 Pokud ale poptáváte velký, specializovaný systém, bez kterého se neobejdete, dávejte si na nabídky běžného komerčního softwaru velký pozor. Dodavatelé velice často prezentují svůj komerční, „na míru upravitelný“ software jako všelék, který zvládne všechny vaše jedinečné regulatorní a procesní požadavky. A nejspíš mají pravdu – ovšem většinou jen za cenu výrazných úprav.
 
-Než tedy podobný software zakoupíte, poptejte se jiných státních úřadů na zkušenosti s ním. Velmi pravděpodobně se dozvíte, že produkt, který byl prezentován jako hotové řešení, si nakonec na úpravách vyžádal mnohem víc času a peněz, než se původně předpokládalo.
+Než tedy podobný software zakoupíte, poptejte se jiných státních úřadů, jaké s ním mají zkušenosti. Velmi pravděpodobně se dozvíte, že produkt, který byl prezentován jako hotové řešení, si nakonec na úpravách vyžádal mnohem víc času a peněz, než se původně předpokládalo.
 
 Při plánování rozpočtu nediktujte konkrétní řešení, dejte úřadu prostor pro výběr, které části systému si může koupit a které postavit. Pokud rozpočet vyžaduje krabicový software, úřad může skončit uvázaný k vysoce upravované verzi krabicového produktu, která nepůjde bez velkých nákladů upgradovat. A podobně pokud rozpočet předepisuje použití SaaS řešení, může tím úřad natlačit do nevyhovujícího SaaS systému, u kterého utratí podstatné peníze za dodatečného „softwarového integrátora“ a propojení se stávajícími systémy. V obou případech dochází k nežádoucímu _vendor lock-inu_, závislosti na jednom dodavateli.
 
-Běžný komerční software skutečně skutečně může být dobrým základem i pro velké nové systémy. Ale zadavatel musí k jeho volbě přistupovat s otevřenýma očima a vědomím, že v něm velmi pravděpodobně nekupuje specializované řešení na klíč.
+Běžný komerční software skutečně může být dobrým základem i pro velké nové systémy. Ale zadavatel musí k jeho volbě přistupovat s otevřenýma očima a vědomím, že v něm velmi pravděpodobně nekupuje specializované řešení na klíč.
 
 ### Kontrolní seznam
 
@@ -213,7 +213,7 @@ Plán posuzování kvality nevyžaduje vznik výstupů čistě pro kontrolu prů
 
 ### Kontrolní seznam
 
-* Vlastníkem produktu je vyhrazený státní zaměstanec s dostatečně silným mandátem.
+* Vlastníkem produktu je vyhrazený státní zaměstnanec s dostatečně silným mandátem.
 * Neexistují žádné plánovací nebo reportovací požadavky, které by byly v rozporu s agilním vývojem. Neexistují tedy například žádné termíny, do kterých by měly být hotové konkrétní úkoly, a neexistuje podrobná specifikace požadovaných funkcí – ani v poptávkovém dokumentu, ani v akvizičním plánu, ani v legislativě.
 * Na konci každého sprintu zkontroluje státem zaměstnaný vývojář, jestli dodaná práce splňuje měřítka definovaná plánem posuzování kvality.
 * Všichni nadřízení vlastníka produktu jsou ochotni posuzovat pokroky projektu primárně v podobě demonstrací fungujícího softwaru, diagramu spalování a přehledu hotových a zbývajících user stories.
@@ -285,7 +285,7 @@ Místo abyste kupovali jeden velký kus proprietárního softwaru, trvejte na to
 
 Hodnota by neměla vzniknout až na konci projektu – koncoví uživatelé by ji měli začít postupně získávat nejpozději šest měsíců od uzavření smlouvy. Už na konci prvního sprintu musí zadavatel dostat ke kontrole první fungující kód a následně se tento proces bude opakovat s každým dalším sprintem. Koncoví uživatelé by měli kontrolovat výsledky každého sprintu bez ohledu na to, jestli došlo k nasazení nové produkční verze pro běžné použití.
 
-Nepoměřujte pokroky projektu story pointy, počtem řádků kódu, člověkohodinami ani jinými podobnými metrikami. Jediným opravdu smysluplným měřítkem úspěchu je hodnota dodaná koncovým uživatelům. A tu nejlépe posoudíte tím, že si na konci každého sprintu v rámci závěrečné porady promluvíte se scrum masterem a státním vlastníkem produktu.
+Nepoměřujte pokroky projektu story pointy, počtem řádků kódu, člověkohodinami ani jinými podobnými metrikami. Jediným opravdu smysluplným měřítkem úspěchu je hodnota dodaná koncovým uživatelům. A tu nejlépe posoudíte tím, že si na konci každého sprintu v rámci závěrečné porady promluvíte se *scrum masterem* a státním vlastníkem produktu.
 
 ### Kontrolní seznam
 
@@ -362,7 +362,7 @@ Se státech jako Kalifornie, Washington, New York, Virginie nebo Maryland může
 
 A jak ony malé kvalifikované týmy najít? Řada měst a států má přímo seznamy vhodných agilních dodavatelů, viz například pravidelně aktualizovaný [seznam kalifornského ministerstva informatiky](https://github.com/CDTProcurement/adpq). Zkuste některé z těchto dodavatelů oslovit v budoucích poptávkách. Poptejte se také mezi svými kolegy z jiných státních úřadů, jestli by vám vhodného dodavatele nedoporučili. Anebo se zkuste vžít do role softwarového vývojáře, co hledá práci, a projděte si známé weby s nabídkami pracovních příležitostí a networkingu – velmi pravděpodobně na nějakého agilního dodavatele ze svého státu narazíte. Celý proces nemusí trvat déle než pár hodin.
 
-Častou praxí je dávat přednost dodavatelům, kteří už poptávaný systém jednou postavili. Vůbec to není nutné, jen si tím omezujete výběr na několik velkých mezinárodních firem. Lepší je rozšířit záběr na společnosti, které úspěšně dodaly nějaký analogický systém – pokud někdo například vyrobil rezervační web pro půjčovnu aut, jistě by uměl udělat například web pro turistické povolenky, a hlavní vývojář databáze pro sledování komet by jistě uměl udělat dababázi pro sledování polohy státních vozidel. Hledáním relevantních zkušeností po této ose jistě najdete řadu vhodných dodavatelů, kteří by vaši zakázku zvládli.
+Častou praxí je dávat přednost dodavatelům, kteří už poptávaný systém jednou postavili. Vůbec to není nutné, jen si tím omezujete výběr na několik velkých mezinárodních firem. Lepší je rozšířit záběr na společnosti, které úspěšně dodaly nějaký analogický systém – pokud někdo například vyrobil rezervační web pro půjčovnu aut, jistě by uměl udělat například web pro turistické povolenky, a hlavní vývojář databáze pro sledování komet by jistě uměl udělat databázi pro sledování polohy státních vozidel. Hledáním relevantních zkušeností po této ose jistě najdete řadu vhodných dodavatelů, kteří by vaši zakázku zvládli.
 
 ### Kontrolní seznam
 
@@ -406,7 +406,7 @@ U malých systémů to znamená přidat k vašemu vývojářskému týmu řekně
 
 Na údržbu softwaru se z hlediska rozpočtu obvykle hledí úplně jinak než na samotný vývoj, což je chyba. Udržovat software znamená jednoduše pokračovat v jeho úpravách podle potřeb uživatelů, které se mění podle zákonů, regulací, politik, doporučených praxí nebo nových technologií. Jsou k tomu potřeba tytéž dovednosti, metody a úkoly, jaké byly potřeba během vývoje. Takže pokud vám někdo navrhuje převést projekt do nějaké speciální fáze provozu a údržby (_operations and maintenance_, O&M), mělo by se vám v hlavě rozsvítit červené světlo.
 
-Obecně řečeno vás agilní tým 5–9 vývojářů bude stát 1–2 milióny dolarů ročně v závislosti na tom, odkud přesně je. Financování se dá postupně navýšit během několika rozpočtových cyklů podle toho, jak se vám bude dařit úspěšně snižovat rizika, kontrolovat výdaje a dodávat iterativně hodnotu koncovým uživatelům.
+Obecně řečeno vás agilní tým 5–9 vývojářů bude stát 1–2 miliony dolarů ročně v závislosti na tom, odkud přesně je. Financování se dá postupně navýšit během několika rozpočtových cyklů podle toho, jak se vám bude dařit úspěšně snižovat rizika, kontrolovat výdaje a dodávat iterativně hodnotu koncovým uživatelům.
 
 Ve výsledku tím můžete získat předvídatelný zdroj financování softwarových projektů a nahradit jím nepředvídatelné kapitálové výdaje. A váš zřizovatel na oplátku získá předvídatelné roční náklady na všechny vaše softwarové projekty.
 
@@ -421,7 +421,7 @@ Ve výsledku tím můžete získat předvídatelný zdroj financování softwaro
 ### Klíčové otázky
 
 * Budou vyžádané prostředky utraceny během jednoho rozpočtovacího období?
-* Pokud zadavatel žádá 50 milionů dolarů, kolik hodnoty lze koncovým uživatelům dodat za dva milióny, další dva milióny, a tak dále?
+* Pokud zadavatel žádá 50 milionů dolarů, kolik hodnoty lze koncovým uživatelům dodat za dva miliony, další dva miliony, a tak dále?
 * Pokud je projekt financovaný federálními dolary, je federální agentura ochotná vzít v úvahu provozní model financování?
 
 ## Ptejte se dodavatele na technické věci
