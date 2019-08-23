@@ -285,7 +285,7 @@ Místo abyste kupovali jeden velký kus proprietárního softwaru, trvejte na to
 
 Hodnota by neměla vzniknout až na konci projektu – koncoví uživatelé by ji měli začít postupně získávat nejpozději šest měsíců od uzavření smlouvy. Už na konci prvního sprintu musí zadavatel dostat ke kontrole první fungující kód a následně se tento proces bude opakovat s každým dalším sprintem. Koncoví uživatelé by měli kontrolovat výsledky každého sprintu bez ohledu na to, jestli došlo k nasazení nové produkční verze pro běžné použití.
 
-Nepoměřujte pokroky projektu story pointy, počtem řádků kódu, člověkohodinami ani jinými podobnými metrikami. Jediným opravdu smysluplným měřítkem úspěchu je hodnota dodaná koncovým uživatelům. A tu nejlépe posoudíte tím, že si na konci každého sprintu v rámci závěrečné porady promluvíte se *scrum masterem* a státním vlastníkem produktu.
+Nepoměřujte pokroky projektu story pointy, počtem řádků kódu, člověkohodinami ani jinými podobnými metrikami. Jediným opravdu smysluplným měřítkem úspěchu je hodnota dodaná koncovým uživatelům. A tu nejlépe posoudíte tím, že si na konci každého sprintu v rámci závěrečné porady promluvíte se *scrum masterem*[^scrum] a státním vlastníkem produktu.
 
 ### Kontrolní seznam
 
@@ -570,6 +570,8 @@ V duchu rady _Chtějte důkazy místo slibů_ nabízíme ukázkový plán posuzo
 [^qasp]: Jako příklad poptávkového dokumentu nabízíme [tuto poptávku amerického daňového soudu](https://github.com/ustaxcourt/case-management-rfq), která v sekci Deliverables and Performance Standards obsahuje i plán posuzování kvality.
 
 [^maint]: Další informace o rozdílném přístupu agilního vývoje k provozu a údržbě systémů najdete například v článku [Software maintenance is an anti-pattern](https://18f.gsa.gov/2016/02/23/software-maintenance-is-an-anti-pattern/) na blogu 18F.
+
+[^scrum]: Scrum je jedna z konkrétních verzí agilního vývoje. Přebírá jeho základní charakteristiky (iterativní vývoj a pragmatický přístup k procesům) a přidává k nim několik jasně definovaných definic, procesů a rolí, z nichž jednou je právě zmíněný scrum master – člověk, který má stručně řečeno za úkol odstraňovat procesní překážky bránící týmu v efektivní práci. (pozn. překl.)
 
 [^standish1]: Společnost Standish Group ve svém CHAOS Reportu z roku 2014 na vzorku 25 tisíc softwarových projektů zjistila, že software dražší než 10 milionů dolarů uspěje [pouze v osmi procentech případů](https://www.standishgroup.com/sample_research_files/CHAOSReport2014.pdf#page=3). S klesajícími náklady jde úspěšnost projektů rychle nahoru, kolem hranice jednoho milionu dolarů už se pohybuje kolem 70 %.
 
