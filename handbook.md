@@ -38,7 +38,7 @@ Kromě toho vám příručka poskytne nástroje pro řešení souvisejících pr
 * Bezpečnostní rizika
 * Hledání vhodných dodavatelů
 
-Text se věnuje především zakázkovému vývoji softwarových systémů, ale je důležité si uvědomit, že prvky šité na míru zákazníkovi často obsahuje i běžný komerční krabicový software (COTS, _commercial off-the-shelf_) nebo software poskytovaný jako služba (SaaS, _software as a service_). Jakmile si necháte na běžném komerčním softwaru něco upravit na míru, většina této příručky se vztahuje i na něj – viz též sekci _Pozor na past komerčního softwaru na míru_ níže.
+Text se věnuje především zakázkovému vývoji softwarových systémů, ale je důležité si uvědomit, že prvky šité na míru zákazníkovi často obsahuje i běžný komerční krabicový software (COTS, _commercial off-the-shelf_) nebo software poskytovaný jako služba (SaaS, _software as a service_). Jakmile si necháte na běžném komerčním softwaru něco upravit na míru, většina této příručky se vztahuje i na něj – viz též sekci _Pozor na past krabicového softwaru na míru_ níže.
 
 Státní správa musí být dobrým správcem veřejných peněz, což znamená, že musí pro své zaměstnance vyžadovat dobře použitelné, přiměřeně drahé a dlouhodobě udržitelné digitální nástroje. A přesně takové vám pomůže získat následující text.
 
@@ -178,11 +178,11 @@ Historicky existuje velký tlak na to, aby zakázky probíhaly za pevnou cenu, p
 * Je vedení zadavatele připraveno řídit produkt podle zjištěných potřeb koncových uživatelů, na základě přímých konverzací s těmito uživateli? Anebo chce řídit produkt podle vlastních osobních preferencí?
 * Mluví poptávkový dokument jasně o pravidelném odevzdávání fungujícího kódu, dokumentace a testů? Říká jasně, že veškeré pracovní výstupy budou majetkem státu?
 
-## Pozor na past komerčního softwaru na míru
+## Pozor na past krabicového softwaru na míru
 
 Běžný krabicový komerční software (_Commercial off-the-shelf Software,_ COTS) a software poskytovaný jako služba (_Software as a Service_, SaaS) nabízí výbornou příležitost, jak pořídit nový software nebo infrastrukturu rychle, bez nutnosti vyvíjet software na zelené louce. Pokud například potřebujete textový procesor, dává bezvadný smysl koupit standardní krabicový produkt.
 
-Pokud ale poptáváte velký, specializovaný systém, bez kterého se neobejdete, dávejte si na nabídky běžného komerčního softwaru velký pozor. Dodavatelé velice často prezentují svůj komerční, „na míru upravitelný“ software jako všelék, který zvládne všechny vaše jedinečné regulatorní a procesní požadavky. A nejspíš mají pravdu – ovšem většinou jen za cenu výrazných úprav.
+Pokud ale poptáváte velký, specializovaný systém, bez kterého se neobejdete, dávejte si na nabídky běžného krabicového softwaru velký pozor. Dodavatelé velice často prezentují svůj komerční, „na míru upravitelný“ software jako všelék, který zvládne všechny vaše jedinečné regulatorní a procesní požadavky. A nejspíš mají pravdu – ovšem většinou jen za cenu výrazných úprav.
 
 Než tedy podobný software zakoupíte, poptejte se jiných státních úřadů, jaké s ním mají zkušenosti. Velmi pravděpodobně se dozvíte, že produkt, který byl prezentován jako hotové řešení, si nakonec na úpravách vyžádal mnohem víc času a peněz, než se původně předpokládalo.
 
