@@ -1,5 +1,5 @@
 ---
-title: Snižování rizika technologických projektů
+title: Příručka řízení státních IT projektů
 rights: Creative Commons Attribution Share Alike
 contributor:
     - text: Robin Carnahan
@@ -13,9 +13,7 @@ contributor:
 language: cs-CZ
 ---
 
-# Snižování rizika technologických projektů
-
-## Příručka rozpočtování a řízení pro státní IT projekty
+# Příručka řízení státních IT projektů
 
 Z [anglického originálu](https://github.com/18F/technology-budgeting/blob/master/handbook.md) přeložil [Tomáš Znamenáček](mailto:zoul@cesko.digital), překlad je uvolněn pod licencí CC BY SA. Verze 1.0.
 
