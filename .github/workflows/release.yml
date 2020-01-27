@@ -23,8 +23,12 @@ jobs:
           body: TODO
           draft: true
           prerelease: false
-      - name: Upload Release Assets
-        id: upload-release-asset 
+      - name: Build Booklet
+        id: build_booklet
+        run: |
+          docker run -v ${{ HOME }}:/home zmotula/pdfjam pdfjam --booklet true --landscape --suffix booklet handbook.pdf
+      - name: Upload Source PDF
+        id: upload-source-pdf
         uses: actions/upload-release-asset@v1.0.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -32,4 +36,14 @@ jobs:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
           asset_path: ./handbook.pdf
           asset_name: handbook.pdf
+          asset_content_type: application/pdf
+      - name: Upload Booklet
+        id: upload-booklet-pdf
+        uses: actions/upload-release-asset@v1.0.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./handbook-booklet.pdf
+          asset_name: booklet.pdf
           asset_content_type: application/pdf
