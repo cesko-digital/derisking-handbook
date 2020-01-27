@@ -12,6 +12,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@master
+      - name: Build Booklet
+        id: build_booklet
+        run: |
+          docker run -v "$(pwd)":/home zmotula/pdfjam pdfjam --booklet true --landscape --suffix booklet handbook.pdf
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
@@ -23,10 +27,6 @@ jobs:
           body: TODO
           draft: true
           prerelease: false
-      - name: Build Booklet
-        id: build_booklet
-        run: |
-          docker run -v "$(pwd)":/home zmotula/pdfjam pdfjam --booklet true --landscape --suffix booklet handbook.pdf
       - name: Upload Source PDF
         id: upload-source-pdf
         uses: actions/upload-release-asset@v1.0.1
