@@ -19,7 +19,7 @@ Z [anglického originálu](https://github.com/18F/technology-budgeting/blob/mast
 
 # Úvod
 
-Pouze 13 % velkých státních softwarových projektů končí úspěchem.[^haze] Prostředí státní správy je pro vývoj softwaru obzvlášť složité, protože státní správa postrádá základní znalosti moderního vývoje softwaru a spoléhá se na zastaralé způsoby nákupu softwaru.
+Pouze 13 % velkých státních softwarových projektů končí úspěchem.[^haze] Prostředí veřejné správy je pro vývoj softwaru obzvlášť složité, protože veřejná správa postrádá základní znalosti moderního vývoje softwaru a spoléhá se na zastaralé způsoby nákupu softwaru.
 
 Státy jsou přitom na moderním softwaru a hardwaru stále víc závislé, nedokázaly by bez nich poskytovat základní veřejné služby a úspěch jakékoliv velké politické změny je podmíněn úspěchem její softwarové infrastruktury. Různé státní úřady čelí podobným výzvám – musí v rámci svých rozpočtových a personálních možností modernizovat zastaralé technologické systémy, které jsou drahé, neflexibilní a neefektivní.[^legacy] Státní činitelé a úřady při tom ovšem často spoléhají na tytéž zastaralé procesy, které je do současné problémové situace dostaly.
 
@@ -38,7 +38,7 @@ Kromě toho vám příručka poskytne nástroje pro řešení souvisejících pr
 
 Text se věnuje především zakázkovému vývoji softwarových systémů, ale je důležité si uvědomit, že prvky šité na míru zákazníkovi často obsahuje i běžný komerční krabicový software (COTS, _commercial off-the-shelf_) nebo software poskytovaný jako služba (SaaS, _software as a service_). Jakmile si necháte na běžném komerčním softwaru něco upravit na míru, většina této příručky se vztahuje i na něj – viz též sekci _Pozor na past krabicového softwaru na míru_ níže.
 
-Státní správa musí být dobrým správcem veřejných peněz, což znamená, že musí pro své zaměstnance vyžadovat dobře použitelné, přiměřeně drahé a dlouhodobě udržitelné digitální nástroje. A přesně takové vám pomůže získat následující text.
+Veřejná správa musí být dobrým správcem veřejných peněz, což znamená, že musí pro své zaměstnance vyžadovat dobře použitelné, přiměřeně drahé a dlouhodobě udržitelné digitální nástroje. A přesně takové vám pomůže získat následující text.
 
 # Základní principy návrhu moderního softwaru
 
@@ -46,7 +46,7 @@ Technologické projekty mají větší šanci uspět, pokud „netechnické“ p
 
 ## Design zaměřený na uživatele
 
-Veškerý vývoj softwaru by se měl točit kolem potřeb skutečných koncových uživatelů, konkrétních lidí, kteří budou systém používat. Těmito koncovými uživateli mohou být například žadatelé o dávky, pracovníci call center, sociální pracovníci nebo kdokoliv jiný ze státní správy a bezpočtu dalších společenských skupin.
+Veškerý vývoj softwaru by se měl točit kolem potřeb skutečných koncových uživatelů, konkrétních lidí, kteří budou systém používat. Těmito koncovými uživateli mohou být například žadatelé o dávky, pracovníci call center, sociální pracovníci nebo kdokoliv jiný z veřejné správy a bezpočtu dalších společenských skupin.
 
 Návrh softwaru pro uživatele a s uživateli snižuje rizika projektu, protože zvyšuje šance, že výsledný software bude řešit skutečné problémy – nikoliv to, co za problémy považuje omezená skupina účastníků projektu. K identifikaci oněch skutečných problémů existuje řada různých postupů, například rozhovory s uživateli nebo testování použitelnosti.
 
@@ -56,7 +56,7 @@ Design zaměřený na uživatele stručně řečeno říká, že je potřeba ře
 
 ## Agilní vývoj softwaru
 
-Ve státní správě odjakživa převládá praxe podrobného plánování velkých softwarových projektů nadlouho dopředu. Nejen vývojáři softwaru ovšem už před léty došli k tomu, že tyto plány nikdy neodpovídají realitě a vždy vyžadují řadu drahých úprav. Takže je načase, aby i zadavatelé přestali vyžadovat podrobné dlouhodobé plánování a začali softwarové projekty rozpočtovat jinak.
+Ve veřejné správě odjakživa převládá praxe podrobného plánování velkých softwarových projektů nadlouho dopředu. Nejen vývojáři softwaru ovšem už před léty došli k tomu, že tyto plány nikdy neodpovídají realitě a vždy vyžadují řadu drahých úprav. Takže je načase, aby i zadavatelé přestali vyžadovat podrobné dlouhodobé plánování a začali softwarové projekty rozpočtovat jinak.
 
 Metodě plánování celého projektu předem se říká _vodopád_. Kdybyste tímto stylem plánovali dejme tomu měsíční rodinný výlet po Evropě, pečlivě byste předem naplánovali každý den od podrobného itineráře cesty přes zamluvení hotelu až po předplacení všech jídel nebo zakoupení lístků na různé atrakce. Což by vůbec nefungovalo, protože byste nevyhnutelně narazili na změny, nečekané možnosti a podobně. Racionálně uvažující člověk nebude chtít rozhodnout všechno předem na začátku cesty, protože ještě neví, co ho cestou čeká. Většina lidí by si naplánovala hrubou trasu a klíčové zastávky – a podrobnosti by doplnili až po cestě.
 
@@ -70,7 +70,7 @@ Software dodaný v úvodních sprintech obvykle nestojí za mnoho a často je do
 
 Každý sprint bez výjimky končí dodáním fungujícího softwaru – plně otestovaného, plně dokumentovaného, připraveného k použití. Dochází tedy k průběžnému dodávání hodnoty až do okamžiku, kdy je systém připraven k širšímu nasazení. Tým pak pracuje dál, dokud se nevyčerpají všechny cíle nebo peníze, podle toho, co přijde první.[^agile]
 
-Dodavatel je placen za čas svých zaměstnanců, nikoliv za softwarový systém. Veškeré výstupy – software, dokumentace, výzkum, grafické návrhy, _zkrátka_ _všechno_ – patří státu a jsou odevzdány na konci každého sprintu. Technologie se mění, státní politika se mění, předpisy se mění, zákony se mění, priority se mění. Žádný projekt naplánovaný pečlivě do detailu předem se s těmito změnami nebude schopen vyrovnat a je velká šance, že vůbec nedojde do konce – anebo jen za cenu výrazných vícenákladů, průtahů a drahých požadavků na změny.
+Dodavatel je placen za čas svých zaměstnanců, nikoliv za softwarový systém. Veškeré výstupy – software, dokumentace, výzkum, grafické návrhy, _zkrátka_ _všechno_ – patří státu a jsou odevzdány na konci každého sprintu. Technologie se mění, politika se mění, předpisy se mění, zákony se mění, priority se mění. Žádný projekt naplánovaný pečlivě do detailu předem se s těmito změnami nebude schopen vyrovnat a je velká šance, že vůbec nedojde do konce – anebo jen za cenu výrazných vícenákladů, průtahů a drahých požadavků na změny.
 
 Díky spojení agilního vývoje s designem zaměřeným na uživatele může vývojářský tým neustále iterovat směrem ke skutečným potřebám uživatelů, a to způsobem, na který by při plánování předem nikdy nepřišel.
 
@@ -78,9 +78,9 @@ V roce 2019 vydalo americké ministerstvo obrany studii Software Acquisition and
 
 ## Vlastnictví produktu
 
-Pokud chtějí týmy ve státní správě získat zpět kontrolu nad svými projekty, musí se soustředit na výsledky, nikoliv na výstupy. To znamená, že musí upustit od některých tradičních manažerských praktik a orientovat se především na produkt.
+Pokud chce veřejná správa získat zpět kontrolu nad svými projekty, musí se soustředit na výsledky, nikoliv na výstupy. To znamená, že musí upustit od některých tradičních manažerských praktik a orientovat se především na produkt.
 
-Slovo „produkt“ může znít v kontextu státní správy cize, ale jde o důležitou součást terminologie technologického světa. „Produkt“ je zkrátka cokoliv, co vzniká: webová stránka, mobilní aplikace, intranetová aplikace, atd. A ačkoliv to slovo dává větší smysl v kontextu běžného byznysu, prakticky celé produktové uvažování se dá bezvadně uplatnit i ve státní správě.
+Slovo „produkt“ může znít v kontextu veřejné správy cize, ale jde o důležitou součást terminologie technologického světa. „Produkt“ je zkrátka cokoliv, co vzniká: webová stránka, mobilní aplikace, intranetová aplikace, atd. A ačkoliv to slovo dává větší smysl v kontextu běžného byznysu, prakticky celé produktové uvažování se dá bezvadně uplatnit i ve veřejné správě.
 
 _Product owner_ neboli vlastník produktu je klíčovou osobou každého softwarového projektu a _musí_ jít o státního zaměstnance. Vlastník produktu spolupracuje se všemi zainteresovanými stranami na směřování produktu, s důrazem na to, aby z něj mohli co nejrychleji těžit koncoví uživatelé. Vlastník produktu je součástí agilního procesu vývoje, ve kterém průběžně definuje a prioritizuje práci produktového týmu, pomocí jasných [výkonnostních metrik](https://www.atlassian.com/agile/project-management/metrics) měří pokroky projektu a komunikuje se všemi zúčastněnými stranami.
 
@@ -94,7 +94,7 @@ Vlastník produktu se může učit za pochodu, ale je lepší ho proškolit pře
 
 ## DevOps
 
-Historickým vývojem došlo k tomu, že o provoz hotového softwaru se často stará jiný tým než ten, který jej vytvořil. Dodavatel například stráví několik let vývojem softwaru a následně ho předá státnímu IT týmu (anebo jinému dodavateli), kterému občas zabere měsíce práce, než systém bezchybně rozběhne na svých serverech. Celý proces obvykle doprovází nemalá míra frustrace a vzájemného obviňování, výsledkem čehož může být i selhání celého projektu. Státní správa proto často trvá na tom, že dodavatel softwaru musí systém i provozovat, na vlastní infrastruktuře a neomezeně dlouho. Tím se výrazně omezuje soutěž mezi dodavateli (většina z nich se hostingem softwaru nezabývá) a dochází k závislosti na jednom dodavateli (_vendor lock-in_), ze které pak obvykle plynou vysoké provozní náklady. Spoléháním na tento zastaralý režim provozu získáte za větší peníze menší hodnotu, než jakou byste dostali, kdybyste zvolili moderní nástroje běžně používané v soukromém sektoru.
+Historickým vývojem došlo k tomu, že o provoz hotového softwaru se často stará jiný tým než ten, který jej vytvořil. Dodavatel například stráví několik let vývojem softwaru a následně ho předá státnímu IT týmu (anebo jinému dodavateli), kterému občas zabere měsíce práce, než systém bezchybně rozběhne na svých serverech. Celý proces obvykle doprovází nemalá míra frustrace a vzájemného obviňování, výsledkem čehož může být i selhání celého projektu. Veřejná správa proto často trvá na tom, že dodavatel softwaru musí systém i provozovat, na vlastní infrastruktuře a neomezeně dlouho. Tím se výrazně omezuje soutěž mezi dodavateli (většina z nich se hostingem softwaru nezabývá) a dochází k závislosti na jednom dodavateli (_vendor lock-in_), ze které pak obvykle plynou vysoké provozní náklady. Spoléháním na tento zastaralý režim provozu získáte za větší peníze menší hodnotu, než jakou byste dostali, kdybyste zvolili moderní nástroje běžně používané v soukromém sektoru.
 
 Řešením je DevOps, tedy spolupráce týmů zodpovědných za vývoj (_**dev**elopment_) a provoz softwaru (_**op**erations_). Cílem je automatizovat práci, která je potřeba k testování softwaru a jeho nasazení na produkční server, kde z něho mají užitek uživatelé. Vývojáři už pak nemohou prostě předat dokončenou práci provoznímu týmu s tím, že „jim to funguje“. Součástí jejich práce je napsat automatické procesy pro správné nasazení softwaru na produkční server. Nesou zodpovědnost – jak praktickou, tak smluvní – za to, že jejich kód poběží na serveru správně.[^devops]
 
@@ -114,7 +114,7 @@ Modulární návrh IT systémů z menších kusů propojených otevřenými a do
 
 Agilní vývoj zaměřený na uživatele, vlastnictví produktu, DevOps a modulární architektura umožňují rozdělit velké, vysoce rizikové projekty na menší a zvladatelnější zakázky. Jednotlivé kontrakty by měly být natolik malé, aby se úřad nemusel bát odebrat zakázku špatně fungujícímu dodavateli a nahradit jej jiným. (Podrobně viz sekci _Nakupujte služby, ne software_.) Zbytek dodavatelů mezitím může pracovat dál, takže celková ztráta hybnosti bude minimální. Nový dodavatel by navíc neměl mít potíže přebrat práci po předchozím, protože ten měl podle pravidel agilního vývoje dodávat co 14 dní úplný, dokumentovaný a otestovaný software. Další výhodou modularizace je, že se výsledné kontrakty mohou vejít do limitu pro malé zakázky a jsou tím pádem zatížené menší administrativní režií.
 
-Existují dodavatelé, kteří se na tento styl práce přímo specializují. Zhruba se dá říct, že agilní vývojářský tým 5–9 lidí stojí zhruba 1–2 miliony dolarů ročně, podle přesného umístění.
+Existují dodavatelé, kteří se na tento styl práce přímo specializují. Zhruba se dá říct, že agilní vývojářský tým 5–9 lidí stojí v americkém prostředí zhruba 1–2 miliony dolarů ročně, podle přesného umístění.
 
 Tento přístup vyžaduje koordinaci a ochotu na straně investora. Lidé zodpovědní za nákup softwaru bývají často zvyklí na tradiční přístup outsourcování IT projektů: jedna zakázka popsaná dlouhým poptávkovým dokumentem, ještě delší nabídky ze strany dodavatelů a zastaralé certifikace vesměs založené na metodice vodopád. Obecně řečeno nemají agilní týmy zaměřené na uživatele ani páru o tom, co znamená CMMI nebo EVMS – tyto standardy už se dnes za vhodnou cestu k flexibilním a nákladově efektivním systémům nepovažují. Celkově tedy jde o zbytečnou překážku pro vstup dalších dodavatelů, kteří mohou ve spolupráci se státem teprve začínat a nechce se jim investovat zdroje do sepisování nabídkových dokumentů.
 
@@ -126,13 +126,13 @@ Moderní procesy vývoje softwaru vychází z potřeb uživatele, používají a
 
 ## Změňte svůj pohled na rizika
 
-Za posledních pár desítek let státní správa přestala pro vývoj kritických systémů používat vlastní zaměstnance a začala spoléhat na externí dodavatele. Jde o zdánlivě bezpečnější řešení, které je často motivované také omezenými vlastními kapacitami a sliby levnějších „krabicových“ řešení ze strany dodavatele.
+Za posledních pár desítek let veřejná správa přestala pro vývoj kritických systémů používat vlastní zaměstnance a začala spoléhat na externí dodavatele. Jde o zdánlivě bezpečnější řešení, které je často motivované také omezenými vlastními kapacitami a sliby levnějších „krabicových“ řešení ze strany dodavatele.
 
-Na projektech jako Heathcare.gov jsme se ovšem naučili, že outsourcovat jde pouze práci, nikoliv riziko selhání.[^healthcare] Neúspěšné projekty jdou na vrub zadavatele, nikoliv dodavatelů. Státní správa je občanům zodpovědná za své fungování a její úřady tedy musí mít pod kontrolou projekty, na které fungování státu spoléhá. Pokud úřad žádá o peníze na IT systém, ve skutečnosti nepotřebuje vyřešit technický problém – potřebuje vyřešit nějaký problém spojený s fungováním státu. Technologie zde slouží jako prostředek, nikoliv jako cíl.
+Na projektech jako Heathcare.gov jsme se ovšem naučili, že outsourcovat jde pouze práci, nikoliv riziko selhání.[^healthcare] Neúspěšné projekty jdou na vrub zadavatele, nikoliv dodavatelů. Veřejná správa je občanům zodpovědná za své fungování a její orgány tedy musí mít pod kontrolou projekty, na které fungování státu spoléhá. Pokud úřad žádá o peníze na IT systém, ve skutečnosti nepotřebuje vyřešit technický problém – potřebuje vyřešit nějaký problém spojený s fungováním státu. Technologie zde slouží jako prostředek, nikoliv jako cíl.
 
-To neznamená, že by státní správa musela všechny systémy vyvíjet vlastními silami. Musí mít ale jasná očekávání ohledně lidských výstupů a technických standardů spojených s bezpečností dat, jejich používáním, interoperabilitou, sledováním a vyhodnocováním.
+To neznamená, že by veřejná správa musela všechny systémy vyvíjet vlastními silami. Musí mít ale jasná očekávání ohledně lidských výstupů a technických standardů spojených s bezpečností dat, jejich používáním, interoperabilitou, sledováním a vyhodnocováním.
 
-Zatímco technické know-how je běžně dostupné a levné, schopnost vést státní úřad je vzácná a cenná. Státní správa musí přijmout odpovědnost za vlastní projekty a riziko jejich selhání; externí dodavatelé by měli fungovat pouze jako najatá pomocná síla, kterou lze v případě nespokojenosti snadno nahradit.
+Zatímco technické know-how je běžně dostupné a levné, schopnost vést státní úřad je vzácná a cenná. Veřejná správa musí přijmout odpovědnost za vlastní projekty a riziko jejich selhání; externí dodavatelé by měli fungovat pouze jako najatá pomocná síla, kterou lze v případě nespokojenosti snadno nahradit.
 
 ### Kontrolní seznam
 
@@ -219,8 +219,8 @@ Plán posuzování kvality nevyžaduje vznik výstupů čistě pro kontrolu prů
 
 ### Klíčové otázky
 
-* Jste schopni nabídnout všem účastníkům projektu podporu při přechodu na takto radikálně odlišný způsob měření pokroku projektu? Od samotného státního úřadu až po nejvyšší úrovně veřejné správy? Může se někdo z nich zablokovat a trvat na Ganttově diagramu, takže by agilní vývoj nepřipadal v úvahu?
-* Kdo bude mít na starost prezentaci výsledků mimo úřad, tedy například parlamentním komisím?
+* Jste schopni nabídnout všem účastníkům projektu podporu při přechodu na takto radikálně odlišný způsob měření pokroku projektu? Od samotných úřadů až po vládu a parlament? Může se někdo z nich zablokovat a trvat na Ganttově diagramu, takže by agilní vývoj nepřipadal v úvahu?
+* Kdo bude mít na starost prezentaci výsledků mimo úřad, tedy například vládě?
 
 ## Investujte do vlastních lidí
 
@@ -230,7 +230,7 @@ Je sice lákavé „vyřešit“ tento problém spoléháním na zaměstnance n�
 
 Snažte se zjistit, jestli lidé zodpovědní za vedení a rozpočet projektu mají odpovídající technické zkušenosti. S výjimkou těch úplně nejmenších úřadů má prakticky každý někoho technicky orientovaného, kdo může vedení projektu doplnit – ačkoliv naopak prakticky nikdo k tomuto účelu nezaměstnává přímo softwarové vývojáře.
 
-Pokud nemáte potřebné know-how sami, musíte zaměstnat někoho, kdo ho přinese, i kdyby to mělo být jen na určitou dobu nebo externě. Nejlepší je vývojář nebo designér se zkušenostmi ve vývoji moderního softwaru, ideálně pro státní sektor. Také můžete jednoho nebo víc zaměstnanců poslat na školení základů agilního vývoje softwaru, po celých Spojených státech je řada programátorských „kempů“ a existují i online varianty.
+Pokud nemáte potřebné know-how sami, musíte zaměstnat někoho, kdo ho přinese, i kdyby to mělo být jen na určitou dobu nebo externě. Nejlepší je vývojář nebo designér se zkušenostmi ve vývoji moderního softwaru, ideálně pro veřejný sektor. Také můžete jednoho nebo víc zaměstnanců poslat na školení základů agilního vývoje softwaru, po celých Spojených státech je řada programátorských „kempů“ a existují i online varianty.
 
 Náklady na zaměstnání vývojáře nebo zvýšení kvalifikace stávajících zaměstnanců jsou ve srovnání se státními výdaji za IT směšné. A jakmile váš zaměstnanec jednou zažije agilní projekt od začátku do konce, rozhodování o rozpočtech dalších softwarových projektů už pro něj bude jednodušší.
 
