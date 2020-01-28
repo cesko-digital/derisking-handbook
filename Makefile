@@ -1,4 +1,4 @@
 handbook.epub: handbook.md
-	pandoc $< -s -o $@
+	docker run --rm -v "$$(pwd)":/data pandoc/core -s -o $@ $<
 clean:
 	rm -f handbook.epub
