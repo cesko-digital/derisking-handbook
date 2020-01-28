@@ -16,7 +16,7 @@ jobs:
         run: |
           docker run -v "$(pwd)":/home zmotula/pdfjam pdfjam --booklet true --landscape --suffix booklet handbook.pdf
       - name: Build EPUB
-        uses: docker://pandoc/core:2.9
+        uses: docker://pandoc/core
         with:
           args: "-s -o handbook.epub handbook.md"
       - name: Create Release
