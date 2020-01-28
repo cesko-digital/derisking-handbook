@@ -2,4 +2,4 @@ Z amerického originálu [De-risking custom technology projects](https://github.
 
 Verzování: x.y.z, kde _z_ jsou změny formátování, _y_ jsou změny obsahu a _x_ si necháváme v rezervě na zásadnější kroky.
 
-Stahujte nejlépe v sekci [Releases](https://github.com/cesko-digital/derisking-handbook/releases), kde je kromě zdrojového PDF k dispozici též verze vhodná pro tisk knížečky ve formátu A5. Verze pro čtečky e-knih bude, nebo je přinejmenším [v plánu](https://github.com/cesko-digital/derisking-handbook/issues/1).
+Stahujte nejlépe v sekci [Releases](https://github.com/cesko-digital/derisking-handbook/releases), kde je kromě zdrojového PDF k dispozici též verze vhodná pro tisk knížečky ve formátu A5 a verze pro čtečky e-knih.
