@@ -19,6 +19,10 @@ jobs:
         uses: docker://pandoc/core
         with:
           args: "-s -o handbook.epub handbook.md"
+      - name: Build MOBI
+        uses: docker://larrycai/ebook-convert
+        with:
+          args: "ebook-convert handbook.epub handbook.mobi"
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
@@ -60,3 +64,13 @@ jobs:
           asset_path: ./handbook.epub
           asset_name: handbook.epub
           asset_content_type: application/epub+zip
+      - name: Upload MOBI
+        id: upload-mobi
+        uses: actions/upload-release-asset@v1.0.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./handbook.mobi
+          asset_name: handbook.mobi
+          asset_content_type: application/x-mobipocket-ebook
