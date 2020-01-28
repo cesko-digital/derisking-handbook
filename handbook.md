@@ -1,6 +1,7 @@
 ---
 title: Příručka řízení státních IT projektů
 rights: Creative Commons Attribution Share Alike
+cover-image: cover.png
 contributor:
     - text: Robin Carnahan
       role: Author
