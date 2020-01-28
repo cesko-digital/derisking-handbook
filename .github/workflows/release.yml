@@ -15,6 +15,10 @@ jobs:
       - name: Build Booklet
         run: |
           docker run -v "$(pwd)":/home zmotula/pdfjam pdfjam --booklet true --landscape --suffix booklet handbook.pdf
+      - name: Build EPUB
+        uses: docker://pandoc/core:2.9
+        with:
+          args: "-s -o handbook.epub handbook.md"
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
@@ -46,3 +50,13 @@ jobs:
           asset_path: ./handbook-booklet.pdf
           asset_name: booklet.pdf
           asset_content_type: application/pdf
+      - name: Upload EPUB
+        id: upload-epub
+        uses: actions/upload-release-asset@v1.0.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./handbook.epub
+          asset_name: handbook.epub
+          asset_content_type: application/epub+zip
