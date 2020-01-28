@@ -13,7 +13,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@master
       - name: Build Booklet
-        id: build_booklet
         run: |
           docker run -v "$(pwd)":/home zmotula/pdfjam pdfjam --booklet true --landscape --suffix booklet handbook.pdf
       - name: Create Release
