@@ -16,7 +16,7 @@ language: cs-CZ
 
 # Příručka řízení státních IT projektů
 
-Z [anglického originálu](https://github.com/18F/technology-budgeting/blob/master/handbook.md) přeložil [Tomáš Znamenáček](mailto:zoul@cesko.digital), překlad je uvolněn pod licencí CC BY SA. Verze 1.0.5, leden 2020.
+Z [anglického originálu](https://github.com/18F/technology-budgeting/blob/master/handbook.md) přeložil [Tomáš Znamenáček](mailto:zoul@cesko.digital), překlad je uvolněn pod licencí CC BY SA. Verze 1.0.6, leden 2020.
 
 # Úvod
 
