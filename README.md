@@ -4,7 +4,8 @@ Příručka shrnuje základní principy, které je potřeba dodržet při analý
 
 Dobře si uvědomujeme, že vydáním jedné příručky téma státních IT projektů nevyřešíme. Nenabízíme hotovou kuchařku, nabízíme ověřené základní principy jako dobrý výchozí bod pro širší debatu. Nechceme hledat viníky, chceme společně hledat řešení.
 
-Pokud vás tato debata zajímá, začtěte se. Příručka je k mání ve formátu [PDF pro čtení na obrazovce][screen], jako [tiskové PDF k výrobě sešitku][print] nebo jako e-kniha ve formátu [EPUB] a [MOBI].
+## Ke stažení
+Příručka je k mání ve formátu [PDF pro čtení na obrazovce][screen], jako [tiskové PDF k výrobě sešitku][print] nebo jako e-kniha ve formátu [EPUB] a [MOBI].
 
 [screen]: https://github.com/cesko-digital/derisking-handbook/releases/latest/download/handbook.pdf
 [print]: https://github.com/cesko-digital/derisking-handbook/releases/latest/download/booklet.pdf
@@ -13,6 +14,6 @@ Pokud vás tato debata zajímá, začtěte se. Příručka je k mání ve formá
 
 ## O projektu
  
-Z amerického originálu [De-risking custom technology projects](https://github.com/18F/technology-budgeting/blob/master/handbook.md) přeložil Tomáš Znamenáček, překlad je uvolněn pod licencí [CC–BY–SA](https://cs.wikipedia.org/wiki/CC-BY-SA).
+Z amerického originálu [De-risking custom technology projects](https://github.com/18F/technology-budgeting/blob/master/handbook.md) od americké 18F přeložil Tomáš Znamenáček, překlad je uvolněn pod licencí [CC–BY–SA](https://cs.wikipedia.org/wiki/CC-BY-SA).
 
 Verzování: x.y.z, kde _z_ jsou změny formátování, _y_ jsou změny obsahu a _x_ si necháváme v rezervě na zásadnější kroky.
