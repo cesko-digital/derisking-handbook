@@ -20,4 +20,4 @@ Příručka je k mání ve formátu [PDF pro čtení na obrazovce][screen], jako
 
 ## Hacking
 
-Pro vydání nové verze je třeba aktualizovat číslo verze a datové razítko v souborech `handbook{.md,pdf}` (a logicky nejspíš tedy i `handbook.afpub`) a výsledný commit otagovat, například `v2.0.0` pro verzi 2.0.0. Po pushnutí commitu na GitHub se probere robot, který z pokladů vyrobí e-knihy a PDF brožurku pro snazší tisk a všechno nahraje na server data.cesko.digital (viz záložku Actions na GitHubu a soubor `.github/workflows/release.yml`).
+Pro vydání nové verze je třeba aktualizovat číslo verze a datové razítko v souborech `handbook{.md,pdf}` (a logicky nejspíš tedy i `handbook.afpub`) a výsledný commit otagovat, například `v2.0.0` pro verzi 2.0.0. Po pushnutí commitu na GitHub se probere robot, který z podkladů vyrobí e-knihy a PDF brožurku pro snazší tisk a všechno nahraje na server data.cesko.digital (viz záložku Actions na GitHubu a soubor `.github/workflows/release.yml`).
