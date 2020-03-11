@@ -7,10 +7,10 @@ Dobře si uvědomujeme, že vydáním jedné příručky téma státních IT pro
 ## Ke stažení
 Příručka je k mání ve formátu [PDF pro čtení na obrazovce][screen], jako [tiskové PDF k výrobě sešitku][print] nebo jako e-kniha ve formátu [EPUB] a [MOBI].
 
-[screen]: https://github.com/cesko-digital/derisking-handbook/releases/latest/download/handbook.pdf
-[print]: https://github.com/cesko-digital/derisking-handbook/releases/latest/download/booklet.pdf
-[EPUB]: https://github.com/cesko-digital/derisking-handbook/releases/latest/download/handbook.epub
-[MOBI]: https://github.com/cesko-digital/derisking-handbook/releases/latest/download/handbook.mobi
+[screen]: https://data.cesko.digital/prirucka/prirucka.pdf
+[print]: https://data.cesko.digital/prirucka/booklet.pdf
+[EPUB]: https://data.cesko.digital/prirucka/prirucka.epub
+[MOBI]: https://data.cesko.digital/prirucka/prirucka.mobi
 
 ## O projektu
  
