@@ -18,15 +18,17 @@ jobs:
       - name: Build EPUB
         uses: docker://pandoc/core
         with:
-          args: "-s -o handbook.epub handbook.md"
+          args: "-s -o prirucka.epub handbook.md"
       - name: Build MOBI
         uses: docker://larrycai/ebook-convert
         with:
-          args: "ebook-convert handbook.epub handbook.mobi"
+          args: "ebook-convert prirucka.epub prirucka.mobi"
       - name: Consolidate artifacts
         run: |
-          mkdir dist
-          mv handbook.pdf booklet.pdf handbook.epub handbook.mobi dist/
+          mkdir prirucka
+          mv handbook.pdf prirucka/prirucka.pdf
+          mv handbook-booklet.pdf prirucka/booklet.pdf
+          mv prirucka.{epub,mobi} prirucka/
       - name: Upload artifacts
         uses: jakejarvis/s3-sync-action@master
         with:
@@ -36,4 +38,5 @@ jobs:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_KEY }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET }}
           AWS_REGION: 'eu-central-1'
-          SOURCE_DIR: 'dist'
+          SOURCE_DIR: 'prirucka'
+          DEST_DIR: 'prirucka'
