@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    name: Create Release
+    name: Create & Upload Artifacts
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -23,57 +23,6 @@ jobs:
         uses: docker://larrycai/ebook-convert
         with:
           args: "ebook-convert handbook.epub handbook.mobi"
-      - name: Create Release
-        id: create_release
-        uses: actions/create-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          tag_name: ${{ github.ref }}
-          release_name: Release ${{ github.ref }}
-          body: TODO
-          draft: true
-          prerelease: false
-      - name: Upload Source PDF
-        id: upload-source-pdf
-        uses: actions/upload-release-asset@v1.0.1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./handbook.pdf
-          asset_name: handbook.pdf
-          asset_content_type: application/pdf
-      - name: Upload Booklet
-        id: upload-booklet-pdf
-        uses: actions/upload-release-asset@v1.0.1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./handbook-booklet.pdf
-          asset_name: booklet.pdf
-          asset_content_type: application/pdf
-      - name: Upload EPUB
-        id: upload-epub
-        uses: actions/upload-release-asset@v1.0.1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./handbook.epub
-          asset_name: handbook.epub
-          asset_content_type: application/epub+zip
-      - name: Upload MOBI
-        id: upload-mobi
-        uses: actions/upload-release-asset@v1.0.1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./handbook.mobi
-          asset_name: handbook.mobi
-          asset_content_type: application/x-mobipocket-ebook
       - name: Consolidate artifacts
         run: |
           mkdir dist
