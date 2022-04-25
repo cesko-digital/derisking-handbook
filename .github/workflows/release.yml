@@ -1,6 +1,7 @@
 name: Create Release
 
 on:
+  workflow_dispatch:
   push:
     tags:
       - 'v*' # Push events to matching v*, i.e. v1.0, v20.15.10
@@ -34,7 +35,7 @@ jobs:
         with:
           args: --acl public-read
         env:
-          AWS_S3_BUCKET: data-cesko-digital
+          AWS_S3_BUCKET: ${{ secrets.AUTOMATED_BUCKET_NAME }}
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_KEY }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET }}
           AWS_REGION: 'eu-central-1'
