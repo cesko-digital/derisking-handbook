@@ -115,7 +115,7 @@ Modulární návrh IT systémů z menších kusů propojených otevřenými a do
 
 Agilní vývoj zaměřený na uživatele, vlastnictví produktu, DevOps a modulární architektura umožňují rozdělit velké, vysoce rizikové projekty na menší a zvladatelnější zakázky. Jednotlivé kontrakty by měly být natolik malé, aby se úřad nemusel bát odebrat zakázku špatně fungujícímu dodavateli a nahradit jej jiným. (Podrobně viz sekci _Nakupujte služby, ne software_.) Zbytek dodavatelů mezitím může pracovat dál, takže celková ztráta hybnosti bude minimální. Nový dodavatel by navíc neměl mít potíže přebrat práci po předchozím, protože ten měl podle pravidel agilního vývoje dodávat co 14 dní úplný, dokumentovaný a otestovaný software. Další výhodou modularizace je, že se výsledné kontrakty mohou vejít do limitu pro malé zakázky a jsou tím pádem zatížené menší administrativní režií.
 
-Existují dodavatelé, kteří se na tento styl práce přímo specializují. Zhruba se dá říct, že agilní vývojářský tým 5–9 lidí stojí v americkém prostředí zhruba 1–2 miliony dolarů ročně, podle přesného umístění.
+Existují dodavatelé, kteří se na tento styl práce přímo specializují. Zhruba se dá říct, že agilní vývojářský tým 5–9 lidí stojí v českém prostředí zhruba 12-20 milionů korun ročně.
 
 Tento přístup vyžaduje koordinaci a ochotu na straně investora. Lidé zodpovědní za nákup softwaru bývají často zvyklí na tradiční přístup outsourcování IT projektů: jedna zakázka popsaná dlouhým poptávkovým dokumentem, ještě delší nabídky ze strany dodavatelů a zastaralé certifikace vesměs založené na metodice vodopád. Obecně řečeno nemají agilní týmy zaměřené na uživatele ani páru o tom, co znamená CMMI nebo EVMS – tyto standardy už se dnes za vhodnou cestu k flexibilním a nákladově efektivním systémům nepovažují. Celkově tedy jde o zbytečnou překážku pro vstup dalších dodavatelů, kteří mohou ve spolupráci se státem teprve začínat a nechce se jim investovat zdroje do sepisování nabídkových dokumentů.
 
@@ -250,7 +250,7 @@ U větších projektů je potřeba vývojářský tým nasmlouvat na dobu neurč
 ### Klíčové otázky
 
 * Když dodavatel na konci každého sprintu odevzdává hotový kód, který konkrétní státní zaměstnanec má na starosti kontrolu jeho kvality?
-* Pokud úřad říká, že potřebuje 10 milionů dolarů na dokončení konkrétního softwarového projektu, kdo z lidí zodpovědných za rozpočet má zkušenosti na to, aby tuto částku posoudil?
+* Pokud úřad říká, že potřebuje 30 milionů korun na dokončení konkrétního softwarového projektu, kdo z lidí zodpovědných za rozpočet má zkušenosti na to, aby tuto částku posoudil?
 * Až bude software hotový, kdo ho bude udržovat? Má úřad vlastní zaměstnance, kteří toho jsou schopni? Zúčastní se procesu vývoje, aby systému rozuměli a dokázali ho podporovat?
 
 ## Minimalizujte cenu změn
@@ -301,7 +301,7 @@ Nepoměřujte pokroky projektu story pointy, počtem řádků kódu, člověkoho
 
 ## Omezte celkové výdaje
 
-Čím je projekt dražší, tím menší má šanci uspět. Obecně řečeno byste za celý projekt neměli utratit více než 10 milionů dolarů.[^standish1] (Vzácnými výjimkami z tohoto pravidla jsou extrémně složité projekty jako například pojištění nezaměstnanosti nebo systémy týkající se programu Medicaid.)
+Čím je projekt dražší, tím menší má šanci uspět. Obecně řečeno byste za celý projekt neměli utratit více než 100 milionů Kč.[^standish1] (Vzácnými výjimkami z tohoto pravidla jsou extrémně složité projekty jako například pojištění nezaměstnanosti nebo systémy týkající se programu Medicaid.)
 
 ### Kontrolní seznam
 
@@ -309,7 +309,7 @@ Nepoměřujte pokroky projektu story pointy, počtem řádků kódu, člověkoho
 
 ### Klíčové otázky
 
-* Pokud projekt „vyžaduje“ 20 milionů dolarů, kolik hodnoty lze uživatelům dodat za polovinu nebo desetinu této částky? (Pokud „žádnou“, projekt je ztracený.)
+* Pokud projekt „vyžaduje“ 50 milionů Kč, kolik hodnoty lze uživatelům dodat za polovinu nebo desetinu této částky? (Pokud „žádnou“, projekt je ztracený.)
 * Pokud vlastní náklady doplní dotace shora, zvlášť v nějakém výhodném poměru (například 9:1 v programech Medicaid), bude mít někdo problémy, když projekt nevyčerpá všechny dostupné peníze?
 * Je mezi účastníky projektu někdo, jehož odměny se odvíjí od proinvestovaných prostředků a má tedy motivaci utratit sto milionů tam, kde by deset stačilo?
 
@@ -317,7 +317,7 @@ Nepoměřujte pokroky projektu story pointy, počtem řádků kódu, člověkoho
 
 Dlouhodobá spolupráce s jedním dodavatelem nebo využití většího počtu týmů od jednoho dodavatele zní lákavě, ale nevyhnutelně vede k závislosti na tomto dodavateli. Rozdělením projektů na menší zakázky motivujete dodavatele k vývoji udržitelnějšího softwarového ekosystému namísto monolitu, a navíc mají menší zakázky znatelně větší šanci na úspěch.[^standish2]
 
-Vyžadujte, aby žádná jednotlivá zakázka nestála ročně víc než dva miliony dolarů a žádná smlouva netrvala déle než tři roky. Tím pádem nedostanete od jednoho dodavatele víc než dva vývojářské týmy – pokud jich projekt vyžaduje víc, sežeňte je u jiného dodavatele a nechte je pracovat samostatně. Omezte také délku poptávkového dokumentu, neměli byste do něj investovat víc než 60 dní a neměl by zabrat víc než 20 stránek.
+Vyžadujte, aby žádná jednotlivá zakázka nestála ročně víc než 40 milionů Kč a žádná smlouva netrvala déle než tři roky. Tím pádem nedostanete od jednoho dodavatele víc než dva vývojářské týmy – pokud jich projekt vyžaduje víc, sežeňte je u jiného dodavatele a nechte je pracovat samostatně. Omezte také délku poptávkového dokumentu, neměli byste do něj investovat víc než 60 dní a neměl by zabrat víc než 20 stránek.
 
 Kromě ochrany před závislostí na jednom dodavateli mají menší zakázky ještě jednu výhodu: mají menší pravděpodobnost, že je někdo napadne, protože při jejich pořizovací hodnotě se nevyplatí do nich investovat úsilí a právníky. Pokud k dodavatelům přistupujete otevřeně a s respektem a nevyžadujete po nich stovky stránek nabídkové dokumentace, je větší šance, že s vámi budou chtít spolupracovat i do budoucna.
 
@@ -405,7 +405,7 @@ U malých systémů to znamená přidat k vašemu vývojářskému týmu řekně
 
 Na údržbu softwaru se z hlediska rozpočtu obvykle hledí úplně jinak než na samotný vývoj, což je chyba. Udržovat software znamená jednoduše pokračovat v jeho úpravách podle potřeb uživatelů, které se mění podle zákonů, regulací, politik, doporučených praxí nebo nových technologií. Jsou k tomu potřeba tytéž dovednosti, metody a úkoly, jaké byly potřeba během vývoje. Takže pokud vám někdo navrhuje převést projekt do nějaké speciální fáze provozu a údržby (_operations and maintenance_, O&M), mělo by se vám v hlavě rozsvítit červené světlo.
 
-Obecně řečeno vás agilní tým 5–9 vývojářů bude stát 1–2 miliony dolarů ročně v závislosti na tom, odkud přesně je. Financování se dá postupně navýšit během několika rozpočtových cyklů podle toho, jak se vám bude dařit úspěšně snižovat rizika, kontrolovat výdaje a dodávat iterativně hodnotu koncovým uživatelům.
+Obecně řečeno vás agilní tým 5–9 vývojářů bude stát 12–21 milionů Kč ročně v závislosti na tom, odkud přesně je. Financování se dá postupně navýšit během několika rozpočtových cyklů podle toho, jak se vám bude dařit úspěšně snižovat rizika, kontrolovat výdaje a dodávat iterativně hodnotu koncovým uživatelům.
 
 Ve výsledku tím můžete získat předvídatelný zdroj financování softwarových projektů a nahradit jím nepředvídatelné kapitálové výdaje. A váš zřizovatel na oplátku získá předvídatelné roční náklady na všechny vaše softwarové projekty.
 
@@ -420,8 +420,8 @@ Ve výsledku tím můžete získat předvídatelný zdroj financování softwaro
 ### Klíčové otázky
 
 * Budou vyžádané prostředky utraceny během jednoho rozpočtovacího období?
-* Pokud zadavatel žádá 50 milionů dolarů, kolik hodnoty lze koncovým uživatelům dodat za dva miliony, další dva miliony, a tak dále?
-* Pokud je projekt financovaný federálními dolary, je federální agentura ochotná vzít v úvahu provozní model financování?
+* Pokud zadavatel žádá 100 milionů dolarů, kolik hodnoty lze koncovým uživatelům dodat za pět milionů, dalších 5 milionů, a tak dále?
+* Pokud je projekt financovaný centrálními či evropskými fondy, jsou odpovědné centrální agentury ochotné vzít v úvahu provozní model financování?
 
 ## Ptejte se dodavatele na technické věci
 
