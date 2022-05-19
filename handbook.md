@@ -115,7 +115,7 @@ Modulární návrh IT systémů z menších kusů propojených otevřenými a do
 
 Agilní vývoj zaměřený na uživatele, vlastnictví produktu, DevOps a modulární architektura umožňují rozdělit velké, vysoce rizikové projekty na menší a zvladatelnější zakázky. Jednotlivé kontrakty by měly být natolik malé, aby se úřad nemusel bát odebrat zakázku špatně fungujícímu dodavateli a nahradit jej jiným. (Podrobně viz sekci _Nakupujte služby, ne software_.) Zbytek dodavatelů mezitím může pracovat dál, takže celková ztráta hybnosti bude minimální. Nový dodavatel by navíc neměl mít potíže přebrat práci po předchozím, protože ten měl podle pravidel agilního vývoje dodávat co 14 dní úplný, dokumentovaný a otestovaný software. Další výhodou modularizace je, že se výsledné kontrakty mohou vejít do limitu pro malé zakázky a jsou tím pádem zatížené menší administrativní režií.
 
-Existují dodavatelé, kteří se na tento styl práce přímo specializují. Zhruba se dá říct, že agilní vývojářský tým 5–9 lidí stojí v českém prostředí zhruba 12-20 milionů korun ročně.
+Existují dodavatelé, kteří se na tento styl práce přímo specializují. Zhruba se dá říct, že agilní vývojářský tým 5–9 lidí stojí v českém prostředí zhruba 12–20 milionů korun ročně.
 
 Tento přístup vyžaduje koordinaci a ochotu na straně investora. Lidé zodpovědní za nákup softwaru bývají často zvyklí na tradiční přístup outsourcování IT projektů: jedna zakázka popsaná dlouhým poptávkovým dokumentem, ještě delší nabídky ze strany dodavatelů a zastaralé certifikace vesměs založené na metodice vodopád. Obecně řečeno nemají agilní týmy zaměřené na uživatele ani páru o tom, co znamená CMMI nebo EVMS – tyto standardy už se dnes za vhodnou cestu k flexibilním a nákladově efektivním systémům nepovažují. Celkově tedy jde o zbytečnou překážku pro vstup dalších dodavatelů, kteří mohou ve spolupráci se státem teprve začínat a nechce se jim investovat zdroje do sepisování nabídkových dokumentů.
 
@@ -301,7 +301,7 @@ Nepoměřujte pokroky projektu story pointy, počtem řádků kódu, člověkoho
 
 ## Omezte celkové výdaje
 
-Čím je projekt dražší, tím menší má šanci uspět. Obecně řečeno byste za celý projekt neměli utratit více než 100 milionů Kč.[^standish1] (Vzácnými výjimkami z tohoto pravidla jsou extrémně složité projekty jako například pojištění nezaměstnanosti nebo systémy týkající se programu Medicaid.)
+Čím je projekt dražší, tím menší má šanci uspět. Obecně řečeno byste za celý projekt neměli utratit více než 100 milionů Kč.[^standish1] Vzácnými výjimkami z tohoto pravidla jsou extrémně složité projekty, v českém prostředí tedy například systém evidence zdravotnických výkonů ISIN, daňový systém ADIS či systém výběru a výplat sociálních dávek.
 
 ### Kontrolní seznam
 
@@ -405,7 +405,7 @@ U malých systémů to znamená přidat k vašemu vývojářskému týmu řekně
 
 Na údržbu softwaru se z hlediska rozpočtu obvykle hledí úplně jinak než na samotný vývoj, což je chyba. Udržovat software znamená jednoduše pokračovat v jeho úpravách podle potřeb uživatelů, které se mění podle zákonů, regulací, politik, doporučených praxí nebo nových technologií. Jsou k tomu potřeba tytéž dovednosti, metody a úkoly, jaké byly potřeba během vývoje. Takže pokud vám někdo navrhuje převést projekt do nějaké speciální fáze provozu a údržby (_operations and maintenance_, O&M), mělo by se vám v hlavě rozsvítit červené světlo.
 
-Obecně řečeno vás agilní tým 5–9 vývojářů bude stát 12–21 milionů Kč ročně v závislosti na tom, odkud přesně je. Financování se dá postupně navýšit během několika rozpočtových cyklů podle toho, jak se vám bude dařit úspěšně snižovat rizika, kontrolovat výdaje a dodávat iterativně hodnotu koncovým uživatelům.
+Obecně řečeno vás agilní tým 5–9 vývojářů bude stát 12–20 milionů Kč ročně v závislosti na tom, odkud přesně je. Financování se dá postupně navýšit během několika rozpočtových cyklů podle toho, jak se vám bude dařit úspěšně snižovat rizika, kontrolovat výdaje a dodávat iterativně hodnotu koncovým uživatelům.
 
 Ve výsledku tím můžete získat předvídatelný zdroj financování softwarových projektů a nahradit jím nepředvídatelné kapitálové výdaje. A váš zřizovatel na oplátku získá předvídatelné roční náklady na všechny vaše softwarové projekty.
 
