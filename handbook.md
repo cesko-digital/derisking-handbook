@@ -16,7 +16,7 @@ language: cs-CZ
 
 # Průvodce světem řízení IT projektů
 
-Z [anglického originálu](https://github.com/18F/technology-budgeting/blob/master/handbook.md) přeložil [Tomáš Znamenáček](mailto:zoul@cesko.digital), překlad je uvolněn pod licencí CC BY SA. Verze 1.0.9, březen 2020.
+Z [anglického originálu](https://github.com/18F/technology-budgeting/blob/master/handbook.md) přeložil [Tomáš Znamenáček](mailto:zoul@cesko.digital), překlad je uvolněn pod licencí CC BY SA. Verze 1.1.0, květen 2022.
 
 # Proč průvodce číst?
 
