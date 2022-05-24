@@ -18,17 +18,27 @@ language: cs-CZ
 
 Z [anglického originálu](https://github.com/18F/technology-budgeting/blob/master/handbook.md) přeložil [Tomáš Znamenáček](mailto:zoul@cesko.digital), překlad je uvolněn pod licencí CC BY SA. Verze 1.0.9, březen 2020.
 
-# Úvod
+# Proč průvodce číst?
 
-Pouze 13 % velkých státních softwarových projektů končí úspěchem.[^haze] Prostředí veřejné správy je pro vývoj softwaru obzvlášť složité, protože veřejná správa postrádá základní znalosti moderního vývoje softwaru a spoléhá se na zastaralé způsoby nákupu softwaru.
+Ruku v ruce se zrychlujícím vývojem společnosti musí jít i vývoj softwarových řešení. Jejich zavádění je pro nás ale bohužel často jako běh neznámým lesem, ve kterém je snadné zabloudit.
 
-Státy jsou přitom na moderním softwaru a hardwaru stále víc závislé, nedokázaly by bez nich poskytovat základní veřejné služby a úspěch jakékoliv velké politické změny je podmíněn úspěchem její softwarové infrastruktury. Různé státní úřady čelí podobným výzvám – musí v rámci svých rozpočtových a personálních možností modernizovat zastaralé technologické systémy, které jsou drahé, neflexibilní a neefektivní.[^legacy] Státní činitelé a úřady při tom ovšem často spoléhají na tytéž zastaralé procesy, které je do současné problémové situace dostaly.
+Věděli jste například, že kvůli nedostatečné znalosti vedení státních softwarových projektů jich končí úspěšně asi jen 13 %?[^haze] To je spousta hodin práce, která vyjde naprázdno. Příliš mnoho důvodů k frustraci a vyhoření.
 
-Veřejnost si zaslouží vládu disponující toutéž špičkovou technologií, kterou lze získat v běžném komerčním prostředí. Závisí na tom důvěra veřejnosti ve stát.
+Průvodce světem řízení IT projektů si dává za cíl zmapovat tento les softwarových řešení a jejich uvádění do praxe. Zavede vás na bezpečná místa, upozorní na nebezpečí, ukáže všechny cesty a cestičky, abyste přesně věděli, kam jít a čemu se vyhnout.
 
-Tato příručka je určena exekutivcům, rozpočtovým specialistům, zákonodárcům a dalším „netechnickým“ lidem, kteří rozhodují o rozpočtech státních IT projektů a dohlíží na ně. Dozvíte se v ní, jaké otázky si musíte klást, jak identifikovat žádoucí výsledky, a naučíte se základy moderního vývoje softwaru, aby vaše projekty pokud možno končily úspěchem.
+## Komu nejvíc pomůže?
 
-Kromě toho vám příručka poskytne nástroje pro řešení souvisejících problémů, například:
+Průvodce nabízíme zejména exekutivcům, rozpočtovým specialistům, zákonodárcům a dalším lidem, kteří rozhodují o rozpočtech státních IT projektů. Napovíme, jaké otázky si klást, jak poznat žádoucí výsledky. Naučíte se základy moderního vývoje softwaru, aby vaše projekty v maximální možné míře končily úspěchem.
+
+Průvodce pomůže kromě výše zmíněných pozic také všem, kdo mají zájem aktivně se podílet na přechodu úřadů k jejich maximální digitalizaci. Nebo uživatelům a úředníkům, kteří chtějí jen nahlédnout mezi stromy digitálního lesa a lépe ho poznat, aby se v něm dokázali snáze orientovat.
+
+## Čemu se v textu věnujeme?
+
+Především zakázkovému vývoji softwarových systémů. Je ale důležité si uvědomit, že prvky šité na míru často obsahuje i běžný komerční krabicový systém nebo software poskytovaný jako služba. Jakmile si necháte v krabicovém softwaru něco upravit na míru, většina této příručky se vztahuje i na něj – viz sekci *Pozor na past krabicového softwaru na míru*.
+
+## Je v průvodci, kromě orientace v IT projektech, ještě něco jiného?
+
+Samozřejmě! Kromě orientace v projektech vám dá nástroje pro řešení souvisejících problémů:
 
 * Souběžný provoz, údržba a modernizace starších IT systémů
 * Závislost na dodavateli plynoucí ze starších smluvních závazků
@@ -37,9 +47,15 @@ Kromě toho vám příručka poskytne nástroje pro řešení souvisejících pr
 * Bezpečnostní rizika
 * Hledání vhodných dodavatelů
 
-Text se věnuje především zakázkovému vývoji softwarových systémů, ale je důležité si uvědomit, že prvky šité na míru zákazníkovi často obsahuje i běžný komerční krabicový software (COTS, _commercial off-the-shelf_) nebo software poskytovaný jako služba (SaaS, _software as a service_). Jakmile si necháte na běžném komerčním softwaru něco upravit na míru, většina této příručky se vztahuje i na něj – viz též sekci _Pozor na past krabicového softwaru na míru_ níže.
+## Co chceme průvodcem dokázat?
 
-Veřejná správa musí být dobrým správcem veřejných peněz, což znamená, že musí pro své zaměstnance vyžadovat dobře použitelné, přiměřeně drahé a dlouhodobě udržitelné digitální nástroje. A přesně takové vám pomůže získat následující text.
+Chceme zabránit tomu, aby byla digitalizace státní zprávy, inovace zastaralých softwarových řešení a práce na takových projektech strašákem. Nechceme, aby se lidé pracující na takových úkolech cítili frustrovaní a ztráceli elán. Nechceme, abyste bloudili v lese.
+
+Chceme pomoci k tomu, aby se digitalizace státní zprávy stala radostí z nacházení nových, lepších, a ještě lepších řešení. Aby bylo zavádění IT systémů jako procházka lesem, ze které se vrátíte odpočatí nebo příjemně unavení a s plným košem.
+
+Veřejná správa musí být dobrým správcem veřejných peněz. To znamená nacházet a zavádět dobře použitelné, přiměřeně drahé a dlouhodobě udržitelné digitální nástroje. A přesně takové si klade za cíl nacházet následující text.
+
+Máte otázky, na které vám průvodce neodpověděl? Chcete konzultaci s odborníkem? Příklady z praxe? Navštivte [www.urednik.digital](https://urednik.digital).
 
 # Základní principy návrhu moderního softwaru
 
