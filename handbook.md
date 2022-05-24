@@ -436,7 +436,7 @@ Ve výsledku tím můžete získat předvídatelný zdroj financování softwaro
 ### Klíčové otázky
 
 * Budou vyžádané prostředky utraceny během jednoho rozpočtovacího období?
-* Pokud zadavatel žádá 100 milionů dolarů, kolik hodnoty lze koncovým uživatelům dodat za pět milionů, dalších 5 milionů, a tak dále?
+* Pokud zadavatel žádá 100 milionů korun, kolik hodnoty lze koncovým uživatelům dodat za pět milionů, dalších 5 milionů, a tak dále?
 * Pokud je projekt financovaný centrálními či evropskými fondy, jsou odpovědné centrální agentury ochotné vzít v úvahu provozní model financování?
 
 ## Ptejte se dodavatele na technické věci
