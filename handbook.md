@@ -1,5 +1,5 @@
 ---
-title: Příručka řízení státních IT projektů
+title: Průvodce světem řízení IT projektů
 rights: Creative Commons Attribution Share Alike
 cover-image: cover.png
 contributor:
@@ -14,7 +14,7 @@ contributor:
 language: cs-CZ
 ---
 
-# Příručka řízení státních IT projektů
+# Průvodce světem řízení IT projektů
 
 Z [anglického originálu](https://github.com/18F/technology-budgeting/blob/master/handbook.md) přeložil [Tomáš Znamenáček](mailto:zoul@cesko.digital), překlad je uvolněn pod licencí CC BY SA. Verze 1.0.9, březen 2020.
 
