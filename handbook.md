@@ -349,7 +349,7 @@ S rostoucím počtem lidí na projektu roste objem času, který jim zabere vzá
 ### Klíčové otázky
 
 * Přečetla si osoba zodpovědná za zadávání zakázek tohoto průvodce?
-* Chápe dotyčná osoba, že po ní nikdo nechce udělat veškerou práci na zakázce za 50 milionů dolarů? Chápe, že dvoumilionové zakázky je mnohem jednodušší zpracovat a agilně bude též jednodušší je uřídit?
+* Chápe dotyčná osoba, že po ní nikdo nechce udělat veškerou práci na zakázce za 100 milionů korun? Chápe, že pětimilionové zakázky je mnohem jednodušší zpracovat a agilně bude též jednodušší je uřídit?
 
 ## Plaťte za ekosystém, ne za monolity
 
@@ -373,7 +373,7 @@ Vaši stávající dodavatelé se nejspíš do moderního stylu vývoje softwaru
 
 Menší, kvalifikovaný agilní tým velmi pravděpodobně najdete i ve svém státě, pokud je to pro vás priorita.[^alaska] Pokud ale chcete snížit náklady, je důležité zvážit i spolupráci se vzdálenými a distribuovanými dodavatelskými týmy.
 
-Se státech jako Kalifornie, Washington, New York, Virginie nebo Maryland může agilní tým snadno stát dvakrát tolik co tentýž tým na středozápadě nebo severu Ameriky. To je rozdíl milionu dolarů ročně, bez dopadu na kvalitu. Vyplatí se tedy zvážit, jak moc stojíte o místní tým, případně tým ze svého státu.[^locals] Podporou distribuovaných týmů získáte kromě jiného přístup k mnohem větší zásobárně talentu, takže se vyplatí do distribuované spolupráce investovat[^remote] a návštěvy na místě vyžadovat jen v případě potřeby, například kvůli kontaktu vývojářů s koncovými uživateli.
+V Praze nebo Brně může agilní tým snadno stát o 30-100% více co tentýž tým z jiných krajů nebo ze Slovenska. To může činit rozdíl milionů korun  ročně, bez dopadu na kvalitu. Vyplatí se tedy zvážit, jak moc stojíte o místní tým, případně tým ze svého města.[^locals] Podporou distribuovaných týmů získáte kromě jiného přístup k mnohem větší zásobárně talentu, takže se vyplatí do distribuované spolupráce investovat[^remote] a návštěvy na místě vyžadovat jen v případě potřeby, například kvůli kontaktu vývojářů s koncovými uživateli.
 
 A jak ony malé kvalifikované týmy najít? Řada měst a států má přímo seznamy vhodných agilních dodavatelů, viz například pravidelně aktualizovaný [seznam kalifornského ministerstva informatiky](https://github.com/CDTProcurement/adpq). Zkuste některé z těchto dodavatelů oslovit v budoucích poptávkách. Poptejte se také mezi svými kolegy z jiných státních úřadů, jestli by vám vhodného dodavatele nedoporučili. Anebo se zkuste vžít do role softwarového vývojáře, co hledá práci, a projděte si známé weby s nabídkami pracovních příležitostí a networkingu – velmi pravděpodobně na nějakého agilního dodavatele ze svého státu narazíte. Celý proces nemusí trvat déle než pár hodin.
 
@@ -392,7 +392,7 @@ A jak ony malé kvalifikované týmy najít? Řada měst a států má přímo s
 ### Klíčové otázky
 
 * Plynou vám nějaké výhody – politické či jiné – z toho, že zakázku zadáte v rámci státu? Nebo tuto podmínku máte přímo jako součást zadání? Pokud ano, může vás to omezit při hledání vhodného dodavatele?
-* Stojí vám úspora jednoho milionu dolarů na každý agilní tým za to, abyste překonali námitky proti vzdáleným týmům?
+* Stojí vám úspora několika milionů korun na každý agilní tým za to, abyste překonali námitky proti vzdáleným týmům?
 * Udělali jste si aspoň letmý průzkum trhu, abyste věděli, jaké dodavatele oslovit svým poptávkovým dokumentem – anebo pouze naslepo poptáváte a doufáte?
 
 ## Podělte se o svůj software s ostatními
@@ -431,7 +431,7 @@ Ve výsledku tím můžete získat předvídatelný zdroj financování softwaro
 * Zadavatel poptává agilní vývojářské služby.
 * Zeptali jste se zadavatele, jestli by nechtěl finance na projekt dostávat průběžně v rámci provozního rozpočtu, namísto jedné velké sumy.
 * Tento režim financování byl konzultován se všemi potřebnými nadřízenými organizacemi.
-* Pokud je projekt vysoce rizikový, dostane v prvním roce pouze několik málo milionů dolarů a financování se bude navyšovat až podle hodnoty dodané uživatelům.
+* Pokud je projekt vysoce rizikový, dostane v prvním roce pouze miliony korun a financování se bude navyšovat až podle hodnoty dodané uživatelům.
 
 ### Klíčové otázky
 
